@@ -3,12 +3,22 @@ variable ami_id{
     default = "ami-0220d79f3f480ecf5"
 }
 
-variable Name{
-    type = string
-    default = "Developer_server"
+# variable Name{
+#     type = string
+#     default = "Developer_server"
+# }
+
+# variable Project{
+#     type = string
+#     default = "Roboshop"
+#}
+
+variable application{
+    type=string
+    default="FO_Report"
 }
 
-variable Project{
-    type = string
-    default = "Roboshop"
+variable instances{
+    type = list 
+    default = ["shipping", "cart", "payment"]
 }

@@ -1,4 +1,4 @@
-resource "aws_security_group" "Roboshop_dev_sg" {
+resource "aws_security_group" "Roboshop_dev_sg-1" {
  name        = "Rboshop-developer-sg-tf"
  description = "Allow HTTPS to web server"
 
