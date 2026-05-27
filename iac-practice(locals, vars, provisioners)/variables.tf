@@ -22,3 +22,8 @@ variable instances{
     type = list 
     default = ["shipping", "cart", "payment"]
 }
+
+variable "sg_name"{
+    type=string 
+    default =  "Roboshop-developer-sg-tf"
+}
